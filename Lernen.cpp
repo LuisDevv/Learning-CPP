@@ -1,21 +1,34 @@
-// imports
 #include <iostream>
 
-// "importing" std instead of std::cout
 using namespace std;
 
 
-// main class
 int main() {
-	// printing Hello World and goes to next line using endl in same funciton
-	cout << "Hello World!" << endl;
 
-	// goes one line down same as \n
-	// cout << endl;
+	const bool debug = true;
 
-	// press any key to countinue
-	system("pause");
+	char letter;
 
-	// end program with 0
+	/*int num1 = 0;
+	int num2 = 0;
+
+	cout << "Please enter the a number: ";
+	cin >> num1;
+	cout << "Please enter a second number: ";
+	cin >> num2;
+	cout << "Your number is: " << num1 + num2 << endl;*/
+
+	/*cout << "Enter a key: ";
+	cin >> letter;
+	cout << "your key is: " << letter << endl;*/
+
+	if (debug) {
+		cout << "yes" << endl;
+	} else {
+		cout << "no" << endl;
+	}
+
+	system("PAUSE");
+
 	return 0;
 }
