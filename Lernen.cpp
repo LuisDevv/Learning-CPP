@@ -5,27 +5,31 @@ using namespace std;
 
 int main() {
 
-	const bool debug = true;
+	int age = 0;
+	cout << "Enter your age!: ";
+	cin >> age;
 
-	char letter;
-
-	/*int num1 = 0;
-	int num2 = 0;
-
-	cout << "Please enter the a number: ";
-	cin >> num1;
-	cout << "Please enter a second number: ";
-	cin >> num2;
-	cout << "Your number is: " << num1 + num2 << endl;*/
-
-	/*cout << "Enter a key: ";
-	cin >> letter;
-	cout << "your key is: " << letter << endl;*/
-
-	if (debug) {
-		cout << "yes" << endl;
+	/*if (age <= 17) {
+		cout << "youre under 18!" << endl;
 	} else {
-		cout << "no" << endl;
+		cout << "youre over 18!" << endl;
+	}*/
+
+	//cout << (age >= 18 ? "Grown ass man\n" : "child :trol:\n");
+
+	swtch(age) {
+	case 0:
+		cout << "0" << endl;
+		break;
+	case 1:
+		cout << "1" << endl;
+		break;
+	case 2:
+		cout << "2" << endl;
+		break;
+	default:
+		cout << "age not detected" << endl;
+		break;
 	}
 
 	system("PAUSE");
