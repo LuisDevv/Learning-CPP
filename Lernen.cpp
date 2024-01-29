@@ -2,39 +2,20 @@
 
 using namespace std;
 
-
 int main() {
 
-	int age = 0;
-	cout << "Enter your age!: ";
-	cin >> age;
+  int continent;
 
-	/*if (age <= 17) {
-		cout << "youre under 18!" << endl;
-	} else {
-		cout << "youre over 18!" << endl;
-	}*/
-
-	//cout << (age >= 18 ? "Grown ass man\n" : "child :trol:\n");
-
-	swtch(age) {
-	case 0:
-		cout << "0" << endl;
-		break;
-	case 1:
-		cout << "1" << endl;
-		break;
-	case 2:
-		cout << "2" << endl;
-		break;
-	default:
-		cout << "age not detected" << endl;
-		break;
-	}
-
-	system("PAUSE");
-
-	return 0;
+  cout << "Select your continent" << endl << "1 (EU), 2 (US), 3 (UK)";
+  cin >> continent;
+  switch (continent) {
+    case 1:
+        cout << "EU" << endl;
+        break;
+    case 2:
+        cout << "US" << endl;
+        break;
+    case 3:
+        cout << "UK" << endl;
+  }
 }
-
-// im sick cant learn today #2
